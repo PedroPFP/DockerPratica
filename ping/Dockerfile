@@ -12,14 +12,8 @@ FROM adoptopenjdk/openjdk11:jre-11.0.15_10-alpine
 
 RUN mkdir /app
 
-RUN addgroup -g 1001 -S tecogroup
-
-RUN adduser -S teco -u 1001
-
-COPY --from=build /project/target/app.jar /app/app.jar
+COPY --from=build /project/target/app.war /app/app.war
 
 WORKDIR /app
 
-RUN chown -R teco:tecogroup /app
-
-CMD java $JAVA_OPTS -jar app.jar
+CMD java $JAVA_OPTS -jar app.war

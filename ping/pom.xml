@@ -8,11 +8,12 @@
 		<version>2.7.14</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap</groupId>
+	<groupId>com.github.acnaweb</groupId>
 	<artifactId>ping</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>ping</name>
-	<description>API Ping Pong</description>
+	<description>API for Ping Pong</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -20,8 +21,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+		</dependency>		
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -30,7 +36,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>app</finalName>
+	    <finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
