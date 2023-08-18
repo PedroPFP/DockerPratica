@@ -16,3 +16,5 @@ jobs:
       run: docker login -u pedro -p xpto
     - name: build image 
       run: docker build -t user/ping .
+    - name: push to docker
+      run: docker push user/ping
