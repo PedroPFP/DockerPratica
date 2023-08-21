@@ -8,7 +8,7 @@
 		<version>2.7.14</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.acnaweb</groupId>
+	<groupId>com.github.pedropfp1290</groupId>
 	<artifactId>ping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>

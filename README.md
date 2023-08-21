@@ -8,11 +8,11 @@ API Java com Spring Boot para uso genérico adequada para criação de imagens d
 Project: Maven
 Language: Java
 Spring Boot: 2.7.X
-Project Metadata/Group: com.github.acnaweb
+Project Metadata/Group: com.github.pedropfp1290
 Project Metadata/Artifact: ping
 Project Metadata/Name: ping
 Project Metadata/Description: API for Ping Pong
-Project Metadata/Package name: com.github.acnaweb.ping
+Project Metadata/Package name: com.github.pedropfp1290.ping
 Project Metadata/Packaging: Jar
 Project Metadata/Java: 11
 
