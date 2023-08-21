@@ -17,4 +17,4 @@ jobs:
     - name: build image 
       run: docker build -t pedropfp1290/ping .
     - name: push to docker
-      run: docker push user/ping
+      run: docker push pedropfp1290/ping
